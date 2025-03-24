@@ -1,0 +1,789 @@
+
+body{
+
+  margin: 0;
+  padding: 0;
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+
+  .img-banner {
+
+  
+
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  
+  }
+  
+  .img-banner-M {
+  
+    display: none;
+  }
+  
+  .navbar-brand {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-left: 30px;
+    color: red;
+  
+  
+  }
+
+.DontFalloffRoof {
+
+  display: none;
+
+}
+  
+  
+  
+  .herobackground {
+  
+    background-color: #074f57;
+  
+    background-image: url(../images/mtn2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  
+  
+  
+  }
+  
+  .fiddlerpicMobile {
+  
+    display: none;
+  
+  }
+  
+  
+  .container {
+  
+    padding-top: 100px;
+  
+  
+  }
+
+
+  .containermobile {
+
+    display: none;
+
+  }
+  
+  h1 {
+  
+    font-size: 100px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+
+  
+  }
+  
+  .herotext {
+  
+    font-size: 24px;
+    color: yellow;
+  
+  }
+  
+  .paragraphbooktext {
+  
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    font-size: 24px;
+    line-height: 34px;
+    text-align: left;
+  
+  
+  }
+
+  .PlayYourFavoriteSong {
+    
+    margin-left: 55px;
+    margin-right: 25px;
+  
+    padding-bottom: 80px;
+  
+    font-size: 100px;
+    line-height: 110px;
+    color: black;
+    font-family: 'Road Rage', cursive;
+    text-align: center;
+    display: block;
+  
+  }
+  
+  
+  .TitleYellowblock {
+  
+    background-color: yellow;
+    text-align: center;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    font-family: 'Road Rage', cursive;
+  
+    font-size: 50px;
+    display: block;
+  
+  
+  
+  
+  }
+
+
+  .TitleYellowblockDesk {
+  
+    background-color: yellow;
+    text-align: center;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    font-family: 'Road Rage', cursive;
+  
+    font-size: 50px;
+    display: block;
+  
+  }
+  
+
+  
+  .mainpic {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  
+    display: block;
+  
+  }
+
+  .mainpicDesk {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+  
+    display: block;
+  
+  }
+  
+  
+  .LoveConquerorsAll {
+    
+    margin-left: 55px;
+    margin-right: 25px;
+  
+    padding-bottom: 80px;
+  
+    font-size: 100px;
+    line-height: 110px;
+    color: yellow;
+    font-family: 'Road Rage', cursive;
+    text-align: center;
+  
+  }
+  
+
+
+  #allAbord_block{
+    
+    background-color: black;
+  }
+  
+  .blackboxpic{
+    
+    display: block;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 50px;
+  
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    height:50%;
+    width:50%;
+  
+
+  
+  }
+
+  
+  .footer {
+    
+    padding: 50px;
+    text-align: center;
+    font-size: 28px;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footertext {
+  
+    color: black;
+  
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  .fiddlerpic {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  
+    display: block;
+  
+    padding-bottom: 60px;
+
+  
+  }
+ 
+
+}
+
+
+@media screen and (max-width:1199px) and (min-width: 768px)  {
+
+.img-banner {
+
+  display: none;
+
+
+}
+
+.img-banner-M {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+h1 {
+
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-size: 145px;
+  margin-bottom: 50px;
+
+
+}
+
+.herotext {
+
+  text-align: center;
+  font-size: 75px;
+  margin-bottom: 50px;
+  background-color: yellow;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.mainpicMobile {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+}
+
+.mainpicDesk {
+
+  display: none;
+
+}
+
+.LoveConquerorsAll {
+
+  color: yellow;
+  font-size: 75px;
+
+  padding-top: 106px;
+  padding-bottom: 156px;
+
+  font-family: 'Road Rage', cursive;
+
+
+}
+
+#allAbord_block{
+    
+  background-color: black;
+}
+
+.blackboxpic{
+  
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 50px;
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+  
+  height:50%;
+  width:50%;
+
+
+
+}
+
+.TitleYellowblockDesk {
+  
+  background-color: yellow;
+  text-align: center;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  font-family: 'Road Rage', cursive;
+
+  font-size: 60px;
+  display: block;
+
+}
+
+
+
+.footer {
+  
+  padding: 50px;
+  text-align: center;
+  font-size: 28px;
+  background-color: tan;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.footertext {
+
+  color: black;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fiddlerpic {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+
+  display: block;
+
+  padding-bottom: 60px;
+
+
+}
+
+.blackboxpic{
+    
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 90px;
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+  
+  height:70%;
+  width:70%;
+
+
+
+}
+
+
+
+
+}
+
+@media screen and (max-width:767px) and (min-width: 401px)  {
+
+
+  .img-banner {
+
+    display: none;
+  
+  
+  }
+  
+  .img-banner-M {
+  
+    display: none;
+  
+  
+  }
+  
+  h1 {
+  
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 50px;
+  
+  
+  }
+  
+  .herotext {
+  
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 50px;
+    background-color: yellow;
+  
+    padding-left: 40px;
+    padding-right: 40px;
+  
+    padding-top: 40px;
+    padding-bottom: 40px;
+  
+  }
+  
+  .mainpicMobile {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  
+    display: block;
+  
+  }
+  
+  .mainpicDesk {
+  
+    display: none;
+  
+  }
+  
+  .LoveConquerorsAll {
+  
+    color: yellow;
+    font-size: 75px;
+  
+    padding-top: 106px;
+    padding-bottom: 156px;
+  
+    font-family: 'Road Rage', cursive;
+  
+  
+  }
+  
+  #allAbord_block{
+      
+    background-color: black;
+  }
+  
+  .blackboxpic{
+    
+    display: block;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 50px;
+  
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    height:50%;
+    width:50%;
+  
+  
+  
+  }
+  
+  .TitleYellowblockDesk {
+    
+    background-color: yellow;
+    text-align: center;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    font-family: 'Road Rage', cursive;
+  
+    font-size: 60px;
+    display: block;
+  
+  }
+  
+  
+  
+  .footer {
+    
+    padding: 50px;
+    text-align: center;
+    font-size: 28px;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footertext {
+  
+    color: black;
+  
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .fiddlerpic {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  
+    display: block;
+  
+    padding-bottom: 60px;
+  
+  
+  }
+  
+  .blackboxpic{
+      
+    display: block;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 90px;
+  
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    height:70%;
+    width:70%;
+  
+  
+  
+  }
+  
+
+
+
+}
+
+
+
+
+@media screen and (max-width:400px) {
+
+  .img-banner {
+
+    display: none;
+  
+  
+  }
+  
+  .img-banner-M {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+  
+  }
+  
+  h1 {
+  
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 145px;
+    margin-bottom: 50px;
+  
+  
+  }
+  
+  .herotext {
+  
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 50px;
+    background-color: yellow;
+  
+    padding-left: 40px;
+    padding-right: 40px;
+  
+    padding-top: 40px;
+    padding-bottom: 40px;
+  
+  }
+  
+  .mainpicMobile {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  
+    display: block;
+  
+  }
+  
+  .mainpicDesk {
+  
+    display: none;
+  
+  }
+  
+  .LoveConquerorsAll {
+  
+    color: yellow;
+    font-size: 75px;
+  
+    padding-top: 106px;
+    padding-bottom: 156px;
+  
+    font-family: 'Road Rage', cursive;
+  
+  
+  }
+  
+  #allAbord_block{
+      
+    background-color: black;
+  }
+  
+  .blackboxpic{
+    
+    display: block;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 50px;
+  
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    height:50%;
+    width:50%;
+  
+  
+  
+  }
+  
+  .TitleYellowblockDesk {
+    
+    background-color: yellow;
+    text-align: center;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    font-family: 'Road Rage', cursive;
+  
+    font-size: 60px;
+    display: block;
+  
+  }
+  
+  
+  
+  .footer {
+    
+    padding: 50px;
+    text-align: center;
+    font-size: 28px;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footertext {
+  
+    color: black;
+  
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .fiddlerpic {
+  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  
+    display: block;
+  
+    padding-bottom: 60px;
+  
+  
+  }
+  
+  .blackboxpic{
+      
+    display: block;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 90px;
+  
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
+    height:70%;
+    width:70%;
+  
+  
+  
+  }
+  
+
+}
+
+
